@@ -1,7 +1,7 @@
 {
   "name": "ufgScrap",
   "version": "1.0.0",
-  "description": "Project for scrapping data from UFG's urls.",
+  "description": "Project for scraping data from UFG's urls.",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
