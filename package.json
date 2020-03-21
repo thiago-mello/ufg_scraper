@@ -1,0 +1,16 @@
+{
+  "name": "ufgScrap",
+  "version": "1.0.0",
+  "description": "Project for scrapping data from UFG's urls.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
