@@ -49,7 +49,10 @@ async function getTeacherDetailedData(teacher) {
         lattesURL = lattesURL ? lattesURL.href : null;
 
         let email = Array.from(document.querySelectorAll('#contato dd'))[3];
-        email = email.textContent.replace(/[\t\n\r]/gm, '').split(' ').join('');
+        if (email) {
+            email = email.textContent.replace(/[\t\n\r]/gm, '').split(' ').join('');
+        }
+
 
         return { photoUrl, lattesURL, email }
     });
